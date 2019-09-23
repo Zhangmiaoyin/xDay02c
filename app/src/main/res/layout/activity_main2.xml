@@ -62,6 +62,7 @@
         android:id="@+id/tv"
         android:layout_marginTop="10dp"
         android:background="@android:color/white"
+        android:text="Glide是一个比较高效的第三方加载图片的框架，而且在使用这个Glide的时候不用担心内存溢出的问题。就比如说当我们加载一张大图，Glide不会直接将图片的完整尺寸全部加载到内存中，而是会自动判断ImageView的大小，然后只将ImageView计算出来的大小图片像素加载到内存中，帮助我们节省内存的开支。"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
